@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Test 01 - Pengetahuan Dasar</title>
+</head>
+
+<body>
+  <h2>Mengapa setiap bahasa pemrograman itu terdapat framework, apa kegunaan framework ?</h2>
+  <p>Framework pada bahasa pemrograman digunakan untuk menyediakan kerangka kerja yang sudah terstruktur sehingga
+    memudahkan programmer dalam membuat aplikasi. Framework juga menyediakan fitur dan fungsi bawaan yang dapat
+    digunakan oleh programmer sehingga tidak perlu membuat fitur dan fungsi dari awal. Hal ini mempercepat proses
+    pengembangan aplikasi.</p>
+  <h2>Jelaskan mengenai fungsi dan penggunaan if else, while, while do, switch case, for, foreach?</h2>
+  <ul>
+    <li><strong>if else:</strong> digunakan untuk melakukan kondisi jika suatu pernyataan benar atau salah</li>
+    <li><strong>while:</strong> digunakan untuk melakukan perulangan selama kondisi yang diberikan masih benar</li>
+    <li><strong>do while:</strong> sama dengan while, namun perulangan dilakukan terlebih dahulu sebelum mengecek
+      kondisi</li>
+    <li><strong>switch case:</strong> digunakan untuk memeriksa nilai variabel dan melakukan aksi berbeda berdasarkan
+      nilai tersebut</li>
+    <li><strong>for:</strong> digunakan untuk melakukan perulangan dengan jumlah iterasi yang sudah ditentukan</li>
+    <li><strong>foreach:</strong> digunakan untuk melakukan perulangan pada setiap elemen dalam array atau objek</li>
+  </ul>
+
+  <h2>Apa itu constructor, method, class, object, variabel, parameter, function, procedure ? </h2>
+  <ul>
+    <li><strong>Constructor:</strong> adalah method khusus yang digunakan untuk menginisialisasi objek dari sebuah class
+    </li>
+    <li><strong>Method:</strong> adalah fungsi yang terdapat dalam sebuah class dan dapat dipanggil oleh objek yang
+      diinstansiasi dari class tersebut</li>
+    <li><strong>Class:</strong> adalah sebuah blueprint atau template untuk membuat objek</li>
+    <li><strong>Object:</strong> adalah hasil instansiasi dari sebuah class</li>
+    <li><strong>Variabel:</strong> adalah tempat untuk menyimpan nilai</li>
+    <li><strong>Parameter:</strong> adalah variabel yang digunakan dalam sebuah fungsi atau method untuk menerima nilai
+      input dari pengguna</li>
+    <li><strong>Function:</strong> adalah blok kode yang dapat dipanggil untuk melakukan tugas tertentu</li>
+    <li><strong>Procedure:</strong> mirip dengan fungsi, namun tidak mengembalikan nilai</li>
+  </ul>
+
+  <h2>Perbedaan method=”Post” dan “Get” ?</h2>
+  <p>Perbedaan antara method "Post" dan "Get" pada HTTP request adalah:</p>
+  <ul>
+    <li><b>Post:</b> Digunakan untuk mengirim data ke server, data tersebut dikirimkan melalui body request. Data yang
+      dikirim bisa berupa apapun termasuk data sensitif seperti password.</li>
+    <li><b>Get:</b> Digunakan untuk mengambil data dari server, data tersebut dikirimkan melalui URL dan terbatas pada
+      panjang URL yang terbatas. Tidak aman jika digunakan untuk mengirim data sensitif seperti password.</li>
+  </ul>
+
+  <h2>Jelaskan konsep mengenai web service dan fungsi apa yang digunakan untuk memanggil web service client ?</h2>
+  <p>Web service adalah suatu layanan yang disediakan oleh server untuk melakukan pertukaran data antara satu aplikasi
+    dengan aplikasi yang lain melalui jaringan internet menggunakan protokol HTTP atau HTTPS. Web service umumnya
+    menggunakan format data yang umum seperti XML atau JSON dan diakses melalui URL.</p>
+  <p>Untuk memanggil web service client, kita dapat menggunakan fungsi atau metode seperti:</p>
+  <ul>
+    <li><b>SOAP (Simple Object Access Protocol):</b> menggunakan protokol HTTP atau HTTPS untuk mengirim permintaan ke
+      server dan menerima respon dari server.</li>
+    <li><b>REST (Representational State Transfer):</b> menggunakan metode HTTP seperti GET, POST, PUT, DELETE untuk
+      mengirim permintaan ke server dan menerima respon dari server. Format data yang umum digunakan pada REST adalah
+      JSON.</li>
+  </ul>
+
+  <h2>Jelaskan mengenai MVC dan HMVC !</h2>
+  <p>MVC (Model-View-Controller) adalah sebuah arsitektur pengembangan aplikasi yang memisahkan komponen aplikasi
+    menjadi tiga bagian, yaitu:</p>
+  <ul>
+    <li><b>Model:</b> Berisi komponen yang bertanggung jawab untuk mengelola data dan logika bisnis aplikasi.</li>
+    <li><b>View:</b> Berisi komponen yang bertanggung jawab untuk menampilkan data ke pengguna dalam bentuk antarmuka.
+    </li>
+    <li><b>Controller:</b> Berisi komponen yang bertanggung jawab untuk menerima input dari pengguna dan mengatur aliran
+      aplikasi berdasarkan input tersebut.</li>
+  </ul>
+  <p>HMVC (Hierarchical Model-View-Controller) adalah pengembangan dari arsitektur MVC dengan menambahkan lapisan yang
+    lebih dalam untuk memungkinkan penggunaan beberapa controller di dalam satu aplikasi. Dalam HMVC, setiap modul
+    memiliki arsitektur MVC sendiri-sendiri yang saling terkait, sehingga dapat mempermudah pengembangan dan perawatan
+    aplikasi yang besar dan kompleks.</p>
+
+  <h2>Sebutkan fungsi curl() dalam PHP!</h2>
+  <p>curl() merupakan fungsi dalam PHP yang digunakan untuk melakukan transfer data pada beberapa protokol seperti HTTP,
+    FTP, dan lain-lain. Fungsi ini dapat digunakan untuk mengambil atau mengirim data melalui URL atau API. Fungsi
+    curl() juga dapat digunakan untuk mengatur opsi-opsi transfer data seperti header, metode, user-agent, dan
+    lain-lain.</p>
+  <h2>Bagaimana menampilkan sebuah element array dalam PHP?</h2>
+  <p>Untuk menampilkan sebuah elemen array dalam PHP, kita dapat menggunakan indeks atau key dari elemen tersebut.
+    Contoh:</p>
+  <pre>
+      <code>&lt;?php
+      $arr = array("apple", "banana", "cherry");
+      echo $arr[0]; // Output: apple
+      echo $arr[1]; // Output: banana
+      echo $arr[2]; // Output: cherry
+      ?&gt;
+      </code>
+    </pre>
+  <h2>Perbedaan HTTP dan HTTPS?</h2>
+  <p>HTTP (Hypertext Transfer Protocol) dan HTTPS (Hypertext Transfer Protocol Secure) adalah protokol yang digunakan
+    untuk transfer data melalui internet. Perbedaan utama antara HTTP dan HTTPS adalah keamanan. HTTPS menggunakan
+    enkripsi SSL/TLS untuk mengamankan transfer data antara server dan klien, sedangkan HTTP tidak.</p>
+  <h2>Jelaskan apa itu API? Sebutkan contohnya?</h2>
+  <p>API (Application Programming Interface) adalah kumpulan aturan, protokol, dan alat untuk membangun perangkat lunak
+    dan aplikasi. API memungkinkan aplikasi untuk berinteraksi dengan perangkat lunak atau layanan lainnya. Contoh API
+    termasuk Google Maps API, Twitter API, dan Facebook API.</p>
+</body>
+
+</html>
